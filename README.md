@@ -1,2 +1,2 @@
 # procrastiNATION
-https://kebudke.github.io/procrastiNATION/
+https://kebudke.github.io/ProcrastiNATION/
