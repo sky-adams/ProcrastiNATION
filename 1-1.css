@@ -3,6 +3,7 @@ p{
 	color:rgb(146,31,90);
 }
 
-img{
+.picture{
+	display: none;
 	
 }
