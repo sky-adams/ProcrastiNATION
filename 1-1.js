@@ -1,6 +1,9 @@
 var a = 0;
 var b = 0;
 var c = 0;
+// var q1ans = 0;
+// var q2ans = 0;
+// var q3ans = 0;
 $(document).ready(function(){
 	$(".ansA").click(function(){
 		a++);
