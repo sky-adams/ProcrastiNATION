@@ -1,26 +1,25 @@
 var a = 0;
 var b = 0;
 var c = 0;
-// var q1ans = 0;
-// var q2ans = 0;
-// var q3ans = 0;
 $(document).ready(function(){
 	$(".ansA").click(function(){
-		a++);
+	a++;});
   $(".ansB").click(function(){
-		b++);
+		b++;});
  	$(".ansC").click(function(){
-		c++);
-  if(a <= 2){
+		c++;});
+	$("button").click(function(){
+  if(a > b && a > c){
     $("#imgA").show();
   }
-  if(b <= 2){
+  if(b > a && b > c){
     $("#imgB").show();
   }
-  if(c <= 2){
+  if(c > a && c > b){
     $("#imgC").show();
   }
-  if(a=1;b=1;c=1){
+  if(a = b && a = c && b = c){
     $("#imgD").show();
   }
 	});
+});
