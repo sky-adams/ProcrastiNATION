@@ -1,6 +1,7 @@
 var a = 0;
 var b = 0;
 var c = 0;
+
 $(document).ready(function(){
 	$(".ansA").click(function(){
 	a++;});
@@ -18,7 +19,7 @@ $(document).ready(function(){
   if(c > a && c > b){
     $("#imgC").show();
   }
-  if(a = b && a = c && b = c){
+  if(a == b && a == c && b == c){
     $("#imgD").show();
   }
 	});
