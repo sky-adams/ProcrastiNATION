@@ -3,6 +3,9 @@ p{
 	color:rgb(146,31,90);
 }
 
+.paragraph{
+	display: none;
+}
 .picture{
 	display: none;
 	
