@@ -19,4 +19,8 @@ $(document).ready(function() {
 	$("#q5clicker").click(function() {
 		$("#q5answer").css({"display": "initial"});
 	});
+	
+	$("#q6clicker").click(function() {
+		$("#q6answer").css({"display": "initial"});
+	});
 });
